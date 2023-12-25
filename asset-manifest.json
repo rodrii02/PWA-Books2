@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PWA-Books2/static/css/main.aa31559f.css",
-    "main.js": "/PWA-Books2/static/js/main.eb3d6dc4.js",
+    "main.js": "/PWA-Books2/static/js/main.e9c76d81.js",
     "static/media/iconoPerrito.png": "/PWA-Books2/static/media/iconoPerrito.f0238a1bafa1e87ada21.png",
     "static/media/logo.svg": "/PWA-Books2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PWA-Books2/index.html",
     "main.aa31559f.css.map": "/PWA-Books2/static/css/main.aa31559f.css.map",
-    "main.eb3d6dc4.js.map": "/PWA-Books2/static/js/main.eb3d6dc4.js.map"
+    "main.e9c76d81.js.map": "/PWA-Books2/static/js/main.e9c76d81.js.map"
   },
   "entrypoints": [
     "static/css/main.aa31559f.css",
-    "static/js/main.eb3d6dc4.js"
+    "static/js/main.e9c76d81.js"
   ]
 }
