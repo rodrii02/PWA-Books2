@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.logo{
+  color: white;
+}
+
+.App-main{
+  background-color: #282c34;
+  height: 83.7vh;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+}
+  .logo-Tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+  }
+  .logo-Tittle h2{
+    padding-right: 15px;
+    color: white;
+  }
+  .buscador-libros{
+    height: max-content;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+    .buscador{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+    }
+    
+    .buscador h1{
+      margin: 15px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .buscador input{
+      border-radius: 5px;
+    }
+    .buscador button{
+      margin-left: 8px;
+      border-radius: 5px;
+    }
+
+    .libro{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: 1px solid white;
+      border-radius: 6px;
+      margin: 5px;
+      padding: 5px;
+    }
+    .libro p{
+      font-size: 15px;
+      color: #dbdbdb;
+    }
+
+      .verMas {
+        color: red; /* Color predeterminado para "Ver más" */
+      }
+      
+      .verMenos {
+        color: red; /* Color para "Ver menos" cuando está expandido */
+      }
+    
+
+      ul{
+        display: inline;
+        padding: 0;
+      }
+      li {
+        list-style-type: none; /* Esto quita los marcadores de lista de los elementos <li> */
+      }
+
+      .infoLibro{
+        text-align: left;
+        padding: 10px;
+      }
+
+      .buscador h1{
+        font-size: small;
+        color: white;
+      }
+
+      .infoLibro h3{
+        font-size: 15px;
+        color: whitesmoke;
+      }
+      .infoLibro a{
+        text-decoration: underline;
+        color: white;
+      }
+
+      /* Estilos CSS */
+.centrado {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
