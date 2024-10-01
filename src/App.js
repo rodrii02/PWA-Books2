@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import bookIcon from './img/book-icon.png';
 import perritoNavi from './img/iconoPerrito.png';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import {useLocalStorage} from './components/useLocalStorage'
 import { Navbar, Nav } from 'react-bootstrap';
 import Buscador from './components/Buscador.jsx';
 import Buscador2 from './components/Buscador2.jsx';
 
 function App() {
-  const [currentIcon, setCurrentIcon] = useState(bookIcon);
+  const [currentIcon, setIcon] = useLocalStorage('icon', bookIcon)
 
   return (
-    
     <div className="App">
       <Router>
         <header>
@@ -22,10 +22,18 @@ function App() {
           <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="App.js"></Navbar.Brand>
             <Nav className="mr-auto">
-              <Link to="/home" className="nav-link" onClick={() => setCurrentIcon(bookIcon)}>
+              <Link
+                to="/home"
+                className="nav-link"
+                onClick={() => setIcon(bookIcon)}
+              >
                 Buscador Normal
               </Link>
-              <Link to="/paraLuara" className="nav-link" onClick={() => setCurrentIcon(perritoNavi)}>
+              <Link
+                to="/paraLuara"
+                className="nav-link"
+                onClick={() => setIcon(perritoNavi)}
+              >
                 Para Laura
               </Link>
             </Nav>

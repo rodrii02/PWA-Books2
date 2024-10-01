@@ -16,6 +16,7 @@ export function useLocalStorage(key, initalValue){
                       titulo={libro.props.titulo}
                       autor={libro.props.autor}
                       linkMasInfo={libro.props.linkMasInfo}
+                      descripcion={libro.props.descripcion}
                     />
                   );
                   nLibros.push(nuevoLibro)

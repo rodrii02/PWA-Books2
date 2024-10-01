@@ -124,6 +124,17 @@
   color: #61dafb;
 }
 
+.feliz-dia-novia {
+  font-family: 'Arial', sans-serif;
+}
+
+pre {
+  line-height: 1.2;
+  font-size: 1.5em;
+  color: #ff69b4;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
