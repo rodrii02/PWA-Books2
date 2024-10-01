@@ -39,7 +39,7 @@ export const Buscador2 = () => {
 
   return (
     <div className="feliz-dia-novia">
-      <h1 style={{ textAlign: 'center', color: '#ff1493' }}>💖 Feliz Día de la NovIA, Lauraaa 💖</h1>
+      <h1 style={{ textAlign: 'center', color: '#ff1493' }}>💖 Feliz Día de la Novia, Lauraaa 💖</h1>
       <pre style={{ textAlign: 'center', fontSize: '1.5em', color: '#ff69b4', lineHeight: '1.2em' }}>
         {heartArray.join('\n')}
       </pre>
